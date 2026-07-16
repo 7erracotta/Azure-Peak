@@ -383,7 +383,7 @@ var/list/used_colors
 	if(target.glazed) // someone else finished first
 		return TRUE
 	target.glazed = TRUE
-	target.glaze_bonus_flat = rand(10, 40)
+	target.glaze_bonus_flat = rand(5, 15) //had to be nerfed 
 	target.icon_state = "[target.icon_state]_glazed"
 	target.update_icon()
 	playsound(loc, "sound/foley/scrubbing[pick(1,2)].ogg", 60, TRUE)
