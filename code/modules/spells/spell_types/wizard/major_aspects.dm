@@ -131,7 +131,6 @@
 	fixed_spells = list(
 		/datum/action/cooldown/spell/projectile/gravel_blast,
 		/datum/action/cooldown/spell/tumult,
-		/datum/action/cooldown/spell/menhir,
 		/datum/action/cooldown/spell/geas,
 		/datum/action/cooldown/spell/magicians_stone,
 	)
