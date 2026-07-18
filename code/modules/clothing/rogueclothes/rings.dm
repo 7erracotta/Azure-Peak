@@ -111,6 +111,7 @@
 	desc = "A ring of shining porcelain."
 	icon_state = "ring_porcelain"
 	sellprice = 10
+	toggle_icon_state = FALSE
 
 /obj/item/clothing/ring/active
 	var/active = FALSE
