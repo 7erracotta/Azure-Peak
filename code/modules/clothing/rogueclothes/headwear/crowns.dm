@@ -54,6 +54,7 @@
 	mob_overlay_icon = 'icons/roguetown/clothing/onmob/head.dmi'
 	smeltresult = null
 	salvage_result = null
+	sellprice = 0
 
 /obj/item/clothing/head/roguetown/circlet/carvedgem/jade
 	name = "jade circlet"
