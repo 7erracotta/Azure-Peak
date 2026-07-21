@@ -1522,7 +1522,7 @@
 	smeltresult = /obj/item/ingot/weeping
 	sellprice = 666
 	equip_delay_self = 3 SECONDS
-	unequip_delay_self = 7 SECONDS 
+	unequip_delay_self = 7 SECONDS
 	inv_storage_delay = 3 SECONDS
 	var/active_item
 
@@ -1662,7 +1662,6 @@
 	icon_state = "amulet_porcelain"
 	desc = "A dainty amulet made out of fine porcelain, donnable on both the neck and wrist."
 	toggle_icon_state = FALSE
-	sellprice = 15
 
 /obj/item/clothing/neck/roguetown/collar/prisoner
 	name = "castifico collar"
