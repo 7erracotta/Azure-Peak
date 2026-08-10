@@ -139,11 +139,11 @@
 	. += span_info("Clay pottery, unlike its alloyed counterparts, can be stained in a dyebin.")
 
 
-/obj/item/reagent_containers/glass/bottle/claybanamabaked
-	name = "ceramic banama pot"
+/obj/item/reagent_containers/glass/bottle/claybamanabaked
+	name = "ceramic bamana pot"
 	desc = "A wide Naledian style pot that is useful for holding large amounts of liquid. Tyme caresses its curves and cracks with a faint, ethereal glimmer."
 	icon = 'icons/roguetown/items/cooking.dmi'
-	icon_state = "claybanamabaked"
+	icon_state = "claybamanabaked"
 	volume = 130 // holds about a teapot amount of liquid
 	reagent_flags = OPENCONTAINER
 	glaze_bonus_pct = GLAZE_BONUS_PCT
@@ -151,7 +151,7 @@
 	grid_width = 64
 	dropshrink = FALSE
 
-/obj/item/reagent_containers/glass/bottle/claybanamabaked/get_mechanics_examine(mob/user)
+/obj/item/reagent_containers/glass/bottle/claybamanabaked/get_mechanics_examine(mob/user)
 	. = ..()
 	. += span_info("Clay pottery, unlike its alloyed counterparts, can be stained in a dyebin.")
 
@@ -239,13 +239,13 @@
 	desc = "A large amphora fashioned from clay. It still needs to be fired to be useful."
 	smeltresult = /obj/item/reagent_containers/glass/bottle/clayamphorabaked
 
-/obj/item/natural/clay/rawbanama
-	name = "unfired banama pot"
+/obj/item/natural/clay/rawbamana
+	name = "unfired bamana pot"
 	icon = 'icons/roguetown/items/cooking.dmi'
-	icon_state = "claybanamaraw"
-	cooked_type = /obj/item/reagent_containers/glass/bottle/claybanamabaked
-	desc = "A wide banama pot fashioned from clay. It still needs to be fired to be useful."
-	smeltresult = /obj/item/reagent_containers/glass/bottle/claybanamabaked
+	icon_state = "claybamanaraw"
+	cooked_type = /obj/item/reagent_containers/glass/bottle/claybamanabaked
+	desc = "A wide bamana pot fashioned from clay. It still needs to be fired to be useful."
+	smeltresult = /obj/item/reagent_containers/glass/bottle/claybamanabaked
 
 /obj/item/natural/clay/rawtallvase
 	name = "unfired tall vase"

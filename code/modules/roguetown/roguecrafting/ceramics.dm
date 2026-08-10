@@ -224,9 +224,9 @@
 	reqs = list(/obj/item/natural/clay = 2)
 	craftdiff = 3
 
-/datum/crafting_recipe/roguetown/ceramics/clay/claybanama
-	name = "clay banama pot"
-	result = list(/obj/item/natural/clay/rawbanama)
+/datum/crafting_recipe/roguetown/ceramics/clay/claybamana
+	name = "clay bamana pot"
+	result = list(/obj/item/natural/clay/rawbamana)
 	reqs = list(/obj/item/natural/clay = 3)
 	craftdiff = 3
 
