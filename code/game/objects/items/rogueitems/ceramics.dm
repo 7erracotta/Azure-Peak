@@ -179,7 +179,6 @@
 	glaze_bonus_pct = GLAZE_BONUS_PCT
 	grid_height = 64
 	grid_width = 32
-	dropshrink = FALSE
 
 /obj/item/reagent_containers/glass/bottle/claytallbaked
 	name = "tall ceramic vase"
