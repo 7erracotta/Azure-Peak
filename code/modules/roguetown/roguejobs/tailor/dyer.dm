@@ -45,7 +45,7 @@ var/list/used_colors
 			/obj/item/reagent_containers/glass/bucket/pot/porcelain,
 			/obj/item/reagent_containers/glass/bottle/claytallbaked,
 			/obj/item/reagent_containers/glass/bottle/clayfootbaked,
-			/obj/item/reagent_containers/glass/bottle/claybanamabaked,
+			/obj/item/reagent_containers/glass/bottle/claybamanabaked,
 			/obj/item/reagent_containers/glass/bottle/clayamphorabaked,
 			/obj/item/reagent_containers/glass/bottle/clayskinnybaked,
 			/obj/item/reagent_containers/glass/carafe/porcelain
