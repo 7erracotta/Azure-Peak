@@ -60,6 +60,14 @@
 	tools = list(/obj/item/rogueweapon/huntingknife)
 	craftdiff = SKILL_LEVEL_APPRENTICE
 
+/datum/crafting_recipe/roguetown/woodcarving/saiga
+	display_category = ITEM_CAT_DECORATION
+	name = "wooden frog figurine"
+	result = /obj/item/carvedwood/frog
+	reqs = list(/obj/item/grown/log/tree/stick = 1)
+	tools = list(/obj/item/rogueweapon/huntingknife)
+	craftdiff = SKILL_LEVEL_APPRENTICE
+
 /datum/crafting_recipe/roguetown/woodcarving/figurine
 	display_category = ITEM_CAT_DECORATION
 	name = "wooden figurine"
