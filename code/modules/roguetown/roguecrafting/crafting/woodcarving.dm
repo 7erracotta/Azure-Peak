@@ -241,7 +241,7 @@
 /datum/crafting_recipe/roguetown/woodcarving/bottle
 	display_category = ITEM_CAT_DECORATION
 	name = "wooden bottle"
-	result = /obj/item/reagant_container/glass/bottle/wood
+	result = /obj/item/reagent_containers/glass/bottle/waterskin/wood
 	reqs = list(/obj/item/grown/log/tree/small = 1)
 	tools = list(/obj/item/rogueweapon/huntingknife)
 	craftdiff = SKILL_LEVEL_EXPERT

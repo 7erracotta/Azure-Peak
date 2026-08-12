@@ -132,7 +132,8 @@
 	glaze_bonus_pct = GLAZE_BONUS_PCT
 	grid_height = 64
 	grid_width = 64
-	dropshrink = FALSE
+	dropshrink = 1.3
+	throwforce = 30 // you are getting a giant vase lobbed at you. its going to hurt.
 
 /obj/item/reagent_containers/glass/bottle/clayfancyvase/get_mechanics_examine(mob/user)
 	. = ..()
@@ -574,7 +575,7 @@
 	name = "unfired clay pot"
 	icon = 'icons/roguetown/items/cooking.dmi'
 	icon_state = "clayporcelainpotraw"
-	desc = "A large clay pot fashioned out of clay."
+	desc = "A large pot fashioned out of clay."
 	cooked_type = /obj/item/reagent_containers/glass/bucket/pot/porcelain
 	smeltresult = /obj/item/reagent_containers/glass/bucket/pot/porcelain
 

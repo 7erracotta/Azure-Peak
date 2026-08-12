@@ -190,9 +190,4 @@ GLOBAL_LIST_INIT(wisdoms, world.file2list("strings/rt/wisdoms.txt"))
 	new /obj/effect/decal/cleanable/debris/glassy(get_turf(T))
 	qdel(src)
 
-// wood
 
-/obj/item/reagant_container/glass/bottle/wood
-	name = "wooden bottle"
-	desc = "A bottle carved out of wood."
-	icon_state = "bottle_wood"
