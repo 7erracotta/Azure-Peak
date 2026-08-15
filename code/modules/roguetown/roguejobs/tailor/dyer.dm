@@ -420,7 +420,7 @@ GLOBAL_LIST_EMPTY(used_colors)
     user.visible_message(span_notice("[user] glazes [target]."), \
         span_notice("I glaze [target] with [lowertext(choice)]."))
     return TRUE
-	if(..)
+	if(...)
 		return TRUE
 	var/obj/item/target = A
 	if(!istype(target) || target.glazed || !target.icon)
