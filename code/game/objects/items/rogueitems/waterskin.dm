@@ -40,8 +40,6 @@
 	var/filtered_reagents = list(/datum/reagent/water/gross,
 								 /datum/reagent/water/bathwater,
 								 /datum/reagent/water/salty) // List of liquids it turns into drinkable water
-									/datum/reagent/water/bathwater,
-									/datum/reagent/water/salty) // List of liquids it turns into drinkable water
 
 /obj/item/reagent_containers/glass/bottle/waterskin/purifier/onfill(obj/target, mob/user, silent = FALSE)
 	. = ..()
