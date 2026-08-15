@@ -383,7 +383,7 @@
 	smeltresult = null	//No resource return
 	glaze_bonus_pct = GLAZE_BONUS_PCT
 
-/obj/item/roguestatue/clay/Initialize()
+/obj/item/roguestatue/clay/Initialize(mapload)
 	. = ..()
 	icon_state = "claystatuecooked[pick(1,2,3,4,5)]"
 
@@ -395,7 +395,7 @@
 	smeltresult = /obj/item/natural/glass
 	glaze_bonus_pct = GLAZE_BONUS_PCT
 
-/obj/item/roguestatue/glass/Initialize()
+/obj/item/roguestatue/glass/Initialize(mapload)
 	. = ..()
 	icon_state = "statueglass[pick(1,2,3,4,5)]"
 
