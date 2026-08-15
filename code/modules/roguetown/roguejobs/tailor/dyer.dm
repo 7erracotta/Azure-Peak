@@ -419,7 +419,7 @@ GLOBAL_LIST_EMPTY(used_colors)
     playsound(loc, "sound/foley/scrubbing[pick(1,2)].ogg", 60, TRUE)
     user.visible_message(span_notice("[user] glazes [target]."), \
         span_notice("I glaze [target] with [lowertext(choice)]."))
-    return TRUE
+	return TRUE
 	if(...)
 		return TRUE
 	var/obj/item/target = A
@@ -427,7 +427,7 @@ GLOBAL_LIST_EMPTY(used_colors)
 		return FALSE
 
 	var/static/list/glaze_finishes = list(
-		"Clear glaze" = "glazed",
+	"Clear glaze" = "glazed",
 		"Kintsugi glaze" = "shattergold",
 		"Lakkarian glaze" = "naled"
 	)
