@@ -420,7 +420,7 @@ GLOBAL_LIST_EMPTY(used_colors)
     user.visible_message(span_notice("[user] glazes [target]."), \
         span_notice("I glaze [target] with [lowertext(choice)]."))
     return TRUE
-	if(..())
+	if(..)
 		return TRUE
 	var/obj/item/target = A
 	if(!istype(target) || target.glazed || !target.icon)
@@ -428,7 +428,8 @@ GLOBAL_LIST_EMPTY(used_colors)
 
 	var/static/list/glaze_finishes = list(
 		"Clear glaze" = "glazed",
-		"Kintsugi glaze" = "shattergold"
+		"Kintsugi glaze" = "shattergold",
+		"Lakkarian glaze" = "naled"
 	)
 
 	var/list/choices = list()
