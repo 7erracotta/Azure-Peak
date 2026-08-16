@@ -417,9 +417,9 @@ GLOBAL_LIST_EMPTY(used_colors)
 	target.icon_state = "[target.icon_state]_[target.glaze_suffix]"
 	target.update_icon()
 	playsound(loc, "sound/foley/scrubbing[pick(1,2)].ogg", 60, TRUE)
-	user.visible_message(span_notice("[user] glazes [target]."), \
-		span_notice("I glaze [target] with [lowertext(choice)].")
-		return TRUE
+	user.visible_message(span_notice("[user] glazes [target]."),
+		span_notice("I glaze [target] with [lowertext(choice)]."))
+
 	if(..())
 		return TRUE
 	var/obj/item/target = A
