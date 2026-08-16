@@ -384,7 +384,7 @@ GLOBAL_LIST_EMPTY(used_colors)
 		"Clear glaze" = "glazed",
 		"Kintsugi glaze" = "shattergold",
 		"Lakkarian glaze" = "naled"
-    )
+	)
 
 	var/list/choices = list()
 	for(var/finish in glaze_finishes)
